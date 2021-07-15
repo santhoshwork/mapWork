@@ -1,0 +1,141 @@
+
+/* RESET CSS */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*CUSTOM CSS*/
+
+ 
+.bg{height:100%;width:100%}  
+.heading h2{font-weight: bold;color:blue;}
+ .heading p{ color:gray}
+ .heading{padding-left:30px;}
+ .tooltips {
+    background: rgba(0,0,0,0.7);
+    border-top: 3px solid yellow;
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    color: #fff;
+     padding: 10px;
+ }
+ .more{
+    position: absolute;
+    top: 79px;
+    left: 160px;
+    color: #fff;
+ }
+ .tooltipLee{ 
+    top: 83px;
+    left: 320px;
+ }
+ .tooltipPerseus{ 
+    top: 180px;
+    left: 574px;
+
+ }
+ .tooltipTraine{ 
+    top: 490px;
+    left: 388px;
+
+ }
+ .tooltipMoorfields{
+    top: 367px;
+    left: 320px;
+}
+ 
+ .tooltipPlanet{
+
+    top: 300px;
+    left: 555px;
+
+ }
+ .namd{  
+    position: absolute;
+    top: 150px;
+    left: 900px;
+
+ }
+ .ttflag{
+     background:transparent url(images/flags.png) no-repeat scroll 0 0;
+     height: 19px;
+     width: 19px;
+     position: absolute;
+     top: 30px;
+     right: 10px;
+     background-size: cover;
+ }
+ .logoflag{
+    padding: 10px;
+    overflow: hidden;
+ }
+ .logoflag strong{
+    font-size: 14px;
+    line-height: 19px;
+    margin-left: 10px;
+    float: left;
+    display: block;
+ }
+ .logoflag span{background:transparent url(images/flags.png) no-repeat scroll 0 0;
+    height: 19px; 
+    width: 19px;
+    background-size: cover;
+    float: left;
+    display: block;
+ }
+ .namd h5{margin: 35px 0 5px 35px;}
+ .ttflag.uk,.flaguk span{background-position: 0px -20px}
+ .ttflag.gn,.flaggn span{background-position: 0px 0;}
+ .ttflag.zu,.flagzu span{background-position: 0px -67px}
+ .ttflag.sg,.flagsg span{background-position: 0px -46px} 
+ .modal-header{border-bottom: 0 none;}
+ .carousel-control.left,.carousel-control.right{background-image: none;}
+ .carousel-control .icon-prev, .carousel-control .icon-next{height: 35px !important;width: 35px !important;background: #000;
+    border-radius: 50px;}
+    .titleBanner{padding: 10px;float: left;}
+    .carousel-indicators li{background-color: #aaa;}
+    .carousel-indicators .active{background-color: #555;}
+.titlebox{overflow: hidden;}
+    .modal .ttflag{position: relative;float: left;top: 8px;right: 0;}
